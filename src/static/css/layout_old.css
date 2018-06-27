@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft Yahei" ;
+}
+a{text-decoration: none;font-family:"Microsoft Yahei" ;}
+img{border: none}
+li{list-style: none}
+.header{width: 100%;background-color: #ffffff;}
+.header-in1{width: 100%;height: 37px;background-color: #bdbcbc}
+.header-in11{width: 1000px;margin: 0 auto;height: 37px;}
+.header-in11 ul{float: right}
+.header-in11 ul li{float: left;height: 37px;line-height: 37px;padding-right: 18px;}
+.header-in11 ul li a{height: 37px;line-height: 37px;color: #ffffff;font-size: 12px}
+.header-in11 ul li a span{position: relative;bottom: 8px;}
+.header-in11 ul li a img{position: relative;bottom: 0px;left: -2px;}
+.header-in{width: 1000px;background-color: #ffffff;margin: 0 auto;height: 61px;}
+.header-in img{float: left}
+.header-in ul{float: left;margin-left: 68px;}
+.header-in ul li{float: left;height: 61px;line-height: 61px;width: 135px;text-align: center}
+.ding{position: relative}
+.header-in ul li:hover{background-color: #1d2088}
+.header-in ul li:hover a{color: #ffffff}
+.header-in ul li a{color: #595757;font-size: 14px;}
+.header-in .kuang{position: absolute;left: -68px;top: 61px;display: none;z-index: 9}
+.header-in .kuang ul{float: none}
+.header-in .kuang ul li{float: none;height: 36px;width: 135px;line-height: 36px;background-color:#b2b2b2;border-bottom: 2px solid #d8d8d8}
+.header-in .kuang ul li:hover{background-color: #766ad0}
+.header-in .kuang ul li a{color: #ffffff}
+.header-in ul li:hover .kuang{display: block}
+.header-in input{width: 138px;height:27px;border: 1px solid #595757;border-radius: 50px;padding-left: 11px;margin-top: 20px;outline: medium;background: url("../img/glass.png") no-repeat;background-position: 130px 6px;}
+.banner{width: 100%; min-height:750px; height:auto !important; height:750px;position: absolute;top: 98px;background: url("../img/banner.jpg") no-repeat;background-position:-116px -44px;background-color: #efefef;z-index: 8}
+.body{width: 1000px;margin: 0 auto;height: 646px}
+.line{height: 646px;}
+.line div{width:128px;height: 128px;float: left;background: url("../img/white.png");background-position: 0px 0px;margin-right: 38px;margin-top: 70px;}
+.footer{width: 100%;height:150px;background: url("../img/ftbj.png"); color:#585657;}
+.footer .p1{ padding-top:30px; line-height:40px; font-size:20px;}
+.footer .p1 span{ padding:0 12px;}
+.line .blue{background: url("../img/blue.png")}
+.wid1000{width: 1000px;border-top: 1px solid transparent;z-index: 8;margin:0 auto; text-align:center;}
+.p_r{position:relative;}
+.ftb{ display:block; width:1000px; position:absolute; bottom:-70px; height:40px; line-height:20px; text-align:center !important; font-size:12px;}
+.ftb span{ display:block;}
+.left,.center,.right{padding-top: 35px;border-right: 1px solid #a4a3a4;margin-top: 13px;}
+.left{width: 300px;float: left;}
+.center{width: 312px;float: left}
+.center img,.center ul{float: left}
+.center ul{margin-left: 25px;}
+.center ul a{color: #595656;font-size: 14px;}
+.center img{margin-left: 71px;}
+.right{width: 383px; position:absolute; top:-30px; right:0;}
+.right img,.right ul{float: left}
+.right ul{margin-left: 25px;}
+.right ul a{color: #595656;font-size: 14px;}
+.right img{margin-left: 71px;}
+.er{width: 86px;height: 86px;background: url("../img/er.png");display: block;float: right;margin-top: -12px;}
+.bottom{color: #595656;font-size: 12px;text-align: center; margin:0 auto;}
+.body-in{padding-top: 23px;width: 1000px;margin: 0 auto;height: 620px}
+.body-in h1{font-size: 20px;color: #595656;float: left}
+.body-in h1 span{font-size: 23px;color: #1d2088;}
+.body-in .ul{float: right;margin-top: 15px;}
+.body-in .ul li b{display: block;margin-top: 35px;color: #b9b9b9;font-weight: normal;font-size: 14px;}
+.body-in .ul li a{color: #ffffff;position: relative;z-index: 8;font-size: 12px;}
+.body-in .ul li{float: left;background: #b9b9b9;height: 5px;line-height: 5px;width: 130px;text-align: center;position: relative;z-index:8}
+.ul span{display: block;width: 19px;height: 19px;background: url("../img/ccc.png");z-index: 7;position: absolute;top:-6px;;left: 55px;}
+.body-in .ul .change{background-color: #c30811}
+.body-in .ul .change b{color: #c30811}
+.body-in .ul .change2{background-color: #ec6d74}
+.body-in .ul .change2 b{color: #ec6d74}
+.body-in .ul .change span{background: url("../img/bigred.png");width: 26px;height: 26px;top:-8px;;left: 53px;}
+.body-in .ul .change2 span{background: url("../img/red.png")}
+.botton{padding-bottom: 8px;border-bottom: 1px solid #595656;width: 900px;margin: 80px auto 0px auto}
+.botton h3,.botton a{float: left}
+.botton h3{font-size: 16px;color: #595656}
+.botton .a1{display: block;width: 127px;height: 27px;border:1px solid #1d2088;line-height: 27px;text-align: center;font-size: 12px;color: #1d2088;margin-left: 26px;position: relative;
+    background: url("../img/flie2.png")no-repeat;background-position: 11px 7px;
+}
+.botton .a2{display: block;width: 114px;height: 25px;background-color:  #1d2088;line-height: 25px;text-align: center;font-size: 12px;color: #ffffff;margin-left: 26px;margin-top: 4px;}
+.file{width: 900px;border-bottom: 1px solid #595656;height: 210px;padding-top: 17px;margin: 0 auto}
+.file2{width: 900px;border-bottom: 1px solid #595656;height: 210px;padding-top: 17px;margin: 0 auto}
+.file3{width: 900px;border-bottom: 1px solid #595656;height: 93px;padding-top: 17px;margin: 0 auto}
+.file h3{font-size: 16px;color: #595656}
+.file3 h3{font-size: 16px;color: #595656;float: left;margin-top: 8px;}
+.file3 input{width: 558px;height: 30px;}
+.file3 .inpp{margin-left: 110px;}
+.file3 .inpp p{font-size: 12px; color: #595656;margin-top: 15px;}
+.file2 .pdf{width: 725px;height: 37px;border:  1px solid #b9b9b9;background-color: #e7e7e7;margin-left: 87px;margin-bottom: 20px;}
+.pdf img{margin-left: 15px;margin-top: 8px;float: left}
+.pdf a{margin-top: 10px;float: left;margin-left: 5px;color: #595656;font-size: 12px;}
+.pdf .aa1{margin-left: 35px;}
+.pdf .ii1{margin-left: 320px;margin-top: 13px;}
+.pdf .ii2{margin-left: 35px;margin-top: 13px}
+.pdf .aa2{color: #b81c22}
+.file4{width: 900px;margin: 0 auto;padding-top: 18px;}
+.file4 h3{font-size: 16px;color: #595656;float: left}
+.file4 p,.file4 a{float: left;margin-left: 24px;}
+.file4 p{color: #595656;font-size: 12px;}
+.file4 a{display: block;width: 80px;height: 25px;background-color: #1d2088;line-height: 25px;text-align: center;color: #ffffff;font-size: 12px;}
+.right{border: none}
